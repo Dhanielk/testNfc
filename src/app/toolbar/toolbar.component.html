@@ -1,0 +1,10 @@
+<mat-toolbar color="primary" (dblclick)="windowResize()">
+    <mat-toolbar-row>
+        <span>Addex toolbox</span>
+        <span class="spacer"></span>
+        <mat-icon (click)="windowMinimize()">minimize</mat-icon>
+        <mat-icon *ngIf="!isFullScreen" (click)="windowFullScreen()">fullscreen</mat-icon>
+        <mat-icon *ngIf="isFullScreen" (click)="windowFullScreen()">fullscreen_exit</mat-icon>
+        <mat-icon (click)="windowClose()">close</mat-icon>
+    </mat-toolbar-row>
+</mat-toolbar>

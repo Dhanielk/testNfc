@@ -1,0 +1,17 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+button {
+    margin: 0 4px;
+}
+
+mat-toolbar {
+    cursor: default;
+    -webkit-app-region: drag;
+    min-height: 0;
+}
+
+mat-toolbar-row {
+    height: auto;
+}
